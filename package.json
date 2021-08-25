@@ -1,10 +1,10 @@
 {
-  "name": "Robot",
+  "name": "ANO",
   "version": "2.1.0",
-  "description": "Robot",
+  "description": "ANK",
   "main": "Naqeb.js",
   "scripts": {
-    "start": "node Naqeb.js"
+    "start": "node ANO.js"
   },
   "dependencies": {
     "discord.js": "^12.4.0",
