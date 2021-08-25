@@ -20,8 +20,8 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = "%";
-client.login("");
+const prefix = "a!";
+client.login("تـــــۆکـــــیــــن لـێرە دانێ");
 client.on("ready", async () => {
   console.log(`Logged in as ${client.user.username}!`);
   client.user.setStatus("idle");
@@ -46,26 +46,27 @@ client.on("message", async message => {
       
   
 
-━──╮•╭──━
+------//------
 ⌖| Security
 > anti ban [Number]
 > anti kick [Number]
 > anti channel [Number]
 > anti role [Number]
 > anti bot [on / off]
-━──╮•╭──━
+> anti ano [on / off] 
+> anti dzha hack [ on ]
+------//------
 ⌖| Public
 > bot , server , ping , profile , uinvites , hightRole , nick
 > user , avatar , roles , emoji
-━──╮•╭──━
+------//------
 ⌖| Moderation
 > , ban , kick , mute , unmute , slowmode , bans
 > say , unban[userid/all]
-━──╮•╭──━
-
+------//------
 __ [Vote](link top gg) __  
 __ [invite](invitebot) __  __ [Support](https://discord.gg/cetGQvWD3h) __
-
+Coded By /// ANO ///
 `);
     message.channel.send(help);
   }
@@ -1369,3 +1370,4 @@ client.on("message", message => {
     message.channel.send(embed);
   }
 })
+/////by ANO//////
